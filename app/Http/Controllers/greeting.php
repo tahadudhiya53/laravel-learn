@@ -21,7 +21,8 @@ class greeting extends Controller{
     // }
     function test(){
         $name="John Doe";
-        return view('test', ['name' => $name] );
+        $user= ['worker1', 'worker2', 'worker3'];
+        return view('test', ['name' => $name , 'user' => $user] );
     }
 
 }
