@@ -7,7 +7,8 @@
         </ul>
     </div>
 @endif -->
-
+<a href="/test">test</a>
+<a href="/welcome">welcome</a>
 <form action="userSubmit" method="post">
     <div>    
         <input type="text" name="username" placeholder="Enter Username"><br>

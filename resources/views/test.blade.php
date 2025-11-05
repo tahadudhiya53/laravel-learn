@@ -1,7 +1,9 @@
-<h1>{{ $test }}</h1>
+
 <x-banner msg="this is successfull msg by test" class="success" />
 <br>
 <x-banner msg="this is error msg by test" class="error" />
+<a href="/welcome">welcome</a>
+<a href="/userForm">userForm</a>
 
 @if(isset($name))
     <h2>Hello, {{ $name }}!</h2>

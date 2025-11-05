@@ -7,6 +7,11 @@
 
 <h1>this is welcome page</h1>
 
+<a href="/test">test</a>
+<a href="/userForm">userForm</a>
+
+
+
 <style>
     .success {
         color: blue ; 
